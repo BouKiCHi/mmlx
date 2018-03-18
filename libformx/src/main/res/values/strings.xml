@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="fs_ok">OK</string>
+    <string name="fs_filename_hint">example.mml</string>
+    <string name="fs_choose_folder">Choose folder&#8230;</string>
+    <string name="fs_save_as">Save as&#8230;</string>
+    <string name="fs_open">Open&#8230;</string>
+    <string name="fs_parent_directory">Parent directory</string>
+
+    <string name="untitled_mml">untitled.mml</string>
+
+    <string name="fs_dir">dir</string>
+    <string name="fs_info">info</string>
+
+    <string name="fs_newdir">+</string>
+    <string name="fs_sd">SD</string>
+    <string name="fs_home">HOME</string>
+
+    <string name="fs_newfolder">NewFolder</string>
+    <string name="fs_newfolder_title">New Folder</string>
+    <string name="list_contdesc">image of title</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    
+    <string name="parent_dir">..</string>    
+    
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">MMLXED</string>
+    <string name="app_version">20180318</string>
+    <string name="ed_textdata"></string>
+    <string name="ed_dir">Directory</string>
+    <string name="menu_file" tools:ignore="TypographyEllipsis">File...</string>
+    <string name="menu_newfile">New</string>
+    <string name="menu_open" tools:ignore="TypographyEllipsis">Open...</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_save_as" tools:ignore="TypographyEllipsis">Save As...</string>
+    <string name="menu_discard">Discard</string>
+    <string name="menu_setting">Setting...</string>
+    <string name="menu_font">Font...</string>
+    <string name="menu_font_small">Small</string>
+    <string name="menu_font_normal">Normal</string>
+    <string name="menu_font_large">Large</string>
+    <string name="menu_define">Define...</string>
+    <string name="menu_import" tools:ignore="TypographyEllipsis">Import...</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_insert" tools:ignore="TypographyEllipsis">Insert...</string>
+    <string name="menu_fav" tools:ignore="TypographyEllipsis">Favorite</string>
+    <string name="menu_hdr" tools:ignore="TypographyEllipsis">Header</string>
+    <string name="menu_cmd" tools:ignore="TypographyEllipsis">Command</string>
+    <string name="menu_compile">Compile (CTRL+S)</string>
+    <string name="menu_select_compiler">Select Compiler...</string>
+    <string name="menu_save_folder">Default Save Folder...</string>
+    
+    <string name="menu_keyboard">Show/Hide Keyboard</string>
+    <string name="menu_changelog">ChangeLog</string>
+    <string name="menu_mmlref">MML Reference</string>
+    
+    <string-array name="hdr">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>a</item>
+        <item>b</item>
+        <item>\@0 = {}</item>
+        <item>\@v0 = {}</item>
+        <item>\@EP0 = {}</item>
+        <item>\@EN0 = {}</item>
+        <item>\@MP0 = {}</item>
+        <item>\@DPCM0 = {}</item>
+        <item>\@FM0 = {}</item>
+        <item>\@N0 = {}</item>
+        <item>\@OP0 = {}</item>
+        <item>\@MW0 = {}</item>
+        <item>\@MH0 = {}</item>
+    </string-array>
+    <string-array name="cmd">
+        <item>;</item>
+        <item>/* */</item>
+        <item>t</item>
+        <item>,</item>
+        <item>n0</item>
+        <item>q8</item>
+        <item>D0</item>
+        <item>K0</item>
+        <item>EP0</item>
+        <item>EPOF</item>
+        <item>EN0</item>
+        <item>ENOF</item>
+        <item>MP0</item>
+        <item>MPOF</item>
+        <item>\@v0</item>
+        <item>|</item>
+        <item>w</item>
+        <item>^</item>
+        <item>L</item>
+        <item>[ | ]</item>
+        <item>|: \\ :|</item>
+        <item>{ }</item>
+        <item>!</item>
+        <item>NB</item>
+    </string-array>
+    <string-array name="fav"></string-array>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="o">o</string>
+    <string name="v">v</string>
+    <string name="l">l</string>
+    <string name="r">r</string>
+    <string name="_amp_">&amp;</string>
+    <string name="tone">\@</string>
+    <string name="sharp">\#</string>
+    <string name="_gt_">&gt;</string>
+    <string name="_lt_">&lt;</string>
+    <string name="t">t</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="e">e</string>
+    <string name="f">f</string>
+    <string name="g">g</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="comma">,</string>
+    <string name="star">☆</string>
+    <string name="hdr">HDR</string>
+    <string name="cmd">CMD</string>
+    <string name="del">DEL</string>
+    <string name="bs">BS</string>
+    <string name="space">SPACE</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+    <string name="ret">RET</string>
+    <string name="q">q</string>
+    <string name="period">.</string>
+    <string name="export_json">export.json</string>
+    <string name="file_not_found_">File not found!</string>
+    <string name="title_activity_help">Help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="go">go</string>
+
+</resources>

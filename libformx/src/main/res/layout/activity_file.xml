@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileActivity" >
+
+    <LinearLayout
+        android:id="@+id/fs_lv_dir_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/fs_lv_dir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fs_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fs_info"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/fs_dir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fs_dir"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_fs_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/fs_home" />
+
+        <Button
+            android:id="@+id/btn_fs_sd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fs_sd" />
+
+        <Button
+            android:id="@+id/btn_fs_newdir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fs_newdir" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/fs_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/fs_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/fs_filename_hint" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_fs_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fs_ok" />
+    </LinearLayout>
+
+</LinearLayout>

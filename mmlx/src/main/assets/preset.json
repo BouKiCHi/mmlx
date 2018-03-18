@@ -1,0 +1,193 @@
+// preset.json 20140921
+{
+    "preset" : "NRTDRV",
+    "packageName" : "com.bkc.nrtc",
+    "templateText" : 
+     ";  NRTDRV template 0921  \n\n A v15 cdefgab>c\n",
+    "manURL" : "http://nrtdrv.sakura.ne.jp/index.cgi?page=MML%A5%B3%A5%DE%A5%F3%A5%C9%B0%EC%CD%F7",
+    "hdrlist": [
+        {
+            "help": "Track A",
+            "text": "A"
+        },
+        {
+            "help": "Track B",
+            "text": "B"
+        },
+        {
+            "help": "Track C",
+            "text": "C"
+        },
+        {
+            "help": "Track D",
+            "text": "D"
+        },
+        {
+            "help": "Track E",
+            "text": "E"
+        },
+        {
+            "help": "Track F",
+            "text": "F"
+        },
+        {
+            "help": "Track G",
+            "text": "G"
+        },
+        {
+            "help": "Track H",
+            "text": "H"
+        },
+        {
+            "help": "Track I",
+            "text": "I"
+        },
+        {
+            "help": "Track J",
+            "text": "J"
+        },
+        {
+            "help": "Track K",
+            "text": "K"
+        },
+        {
+            "help": "Track L",
+            "text": "L"
+        },
+        {
+            "help": "Track M",
+            "text": "M"
+        },
+        {
+            "help": "Track N",
+            "text": "N"
+        },
+        {
+            "help": "Track O",
+            "text": "O"
+        },
+        {
+            "help": "Track P",
+            "text": "P"
+        },
+        {
+            "help": "Track 1",
+            "text": "1"
+        },
+        {
+            "help": "Track 2",
+            "text": "2"
+        },
+        {
+            "help": "Track 3",
+            "text": "3"
+        }
+    ],
+    "cmdlist": [
+        {
+            "help": "comment out",
+            "text": ";"
+        },
+        {
+            "help": "comment out",
+            "text": "\/* *\/"
+        },
+        {
+            "help": "tempo",
+            "text": "t120"
+        },
+        {
+            "help": "comma",
+            "text": ","
+        },
+        {
+            "help": "tone select",
+            "text": "@"
+        },
+        {
+            "help": "tone select(PSG)",
+            "text": "@P"
+        },
+        {
+            "help": "tone select(PSG)",
+            "text": "@E"
+        },
+        {
+            "help": "volume(0-15)",
+            "text": "v15"
+        },
+        {
+            "help": "volume2(0-127)",
+            "text": "V127"
+        },
+        {
+            "help": "OPM panpot/PSG tone select",
+            "text": "P"
+        },
+        {
+            "help": "noise frequency",
+            "text": "N"
+        },
+        {
+            "help": "hardware envelope style(0-15)(PSG)",
+            "text": "s"
+        },
+        {
+            "help": "hardware envelope cycle(0-65535)(PSG)",
+            "text": "m"
+        },
+        {
+            "help": "portament1(0-255)",
+            "text": "p"
+        },
+        {
+            "help": "glide ",
+            "text": "G0,1"
+        },
+        {
+            "help": "detune",
+            "text": "D0"
+        },
+        {
+            "help": "modulate(key change)",
+            "text": "K0"
+        },
+        {
+            "help": "fade out(0-15)",
+            "text": "FO0"
+        },
+        {
+            "help": "PSG release",
+            "text": "R0,0"
+        },
+        {
+            "help": "loop point",
+            "text": "L"
+        },
+        {
+            "help": "force key off",
+            "text": "|"
+        },
+        {
+            "help": "jump",
+            "text": "j"
+        },
+        {
+            "help": "avoid tone/volume/pan",
+            "text": "I"
+        },
+        {
+            "help": "avoid tone",
+            "text": "I@"
+        },
+        {
+            "help": "avoid P command",
+            "text": "IP"
+        },
+        {
+            "help": "avoid V command",
+            "text": "IV"
+        }
+    ],
+    "favlist": []
+}

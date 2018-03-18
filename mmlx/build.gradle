@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.bkc.mmlx"
+        minSdkVersion 7
+        targetSdkVersion 23
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':libformx')
+    implementation 'com.android.support:support-v4:23.0.0'
+}
